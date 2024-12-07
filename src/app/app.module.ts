@@ -18,7 +18,8 @@ import { UpdateMedicineComponent } from './update-medicine/update-medicine.compo
 import { DocloginComponent } from './doclogin/doclogin.component';
 import { AdloginComponent } from './adlogin/adlogin.component';
 import { PatientComponent } from './patient/patient.component';
-import { RegistrationComponent } from './registration/registration.component';  // <-- Import FormsModule
+import { RegistrationComponent } from './registration/registration.component';
+import { CreateDoctorComponent } from './create-doctor/create-doctor.component';  // <-- Import FormsModule
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { RegistrationComponent } from './registration/registration.component';  
     AdloginComponent,
     PatientComponent,
     RegistrationComponent,
+    CreateDoctorComponent,
     
   ],
   imports: [
